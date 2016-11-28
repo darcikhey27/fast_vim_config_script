@@ -47,3 +47,4 @@ echo "enjoy a simple but awesome vim installation by Darci K (mind wide open)"
 echo "adios"
 echo 
 echo 
+echo "please restart your terminal with"
