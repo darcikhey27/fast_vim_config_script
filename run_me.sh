@@ -1,7 +1,7 @@
 #!/bin/bash
 # Darci K Saucedo
 # 
-# script to download multiple repos and so we can install an awesome vim configuration
+# script to download multiple repos so we can install an awesome vim configuration
 #
 #
 
