@@ -1,4 +1,4 @@
 # best_vim_config
-#### run this script and you will have an awesome vim configuration.
+#### sudo bash run_me.sh and you will have a great vim configuration. 
 ##### happy viming!
 
