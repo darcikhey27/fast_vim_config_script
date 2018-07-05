@@ -43,7 +43,7 @@ cp -r auto-pairs/plugin/auto-pairs.vim ~/.vim/plugin
 echo
 echo "installation complete"
 echo 
-echo "enjoy a simple but awesome vim installation by Darci K (mind wide open)"
+echo "enjoy a simple but awesome vim installation by Darci K"
 echo "adios"
 echo 
 echo 
