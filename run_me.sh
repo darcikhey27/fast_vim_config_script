@@ -26,7 +26,14 @@ mkdir .vim
 mkdir .vim/plugin
 mkdir .vim_runtime
 
-echo "downloading repo from github"
+echo "updating VIM"
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt update
+sudo apt install vim
+
+
+
+echo "downloading repos from github"
 echo 
 git clone https://github.com/amix/vimrc.git
 cp -r vimrc/* .vim_runtime
