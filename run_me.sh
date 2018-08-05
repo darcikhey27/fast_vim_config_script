@@ -1,9 +1,20 @@
 #!/bin/bash
 # Darci K Saucedo
 # 
-# script to download multiple repos so we can install an awesome vim configuration
+# script to download multiple repos and install a producitve VIM enviroment
 #
-#
+filename=$0
+params=$1
+
+if [[ "$params" != "debian" && "$params" != "fedora" ]]
+then
+    echo "$params is not an option:"
+    echo
+    echo "<usage: $filename [ fedora | debian ]>"
+    echo
+    exit 1
+fi
+
 
 # first lets check if git is installed, if it is not let's go ahead and install it
 str=$(git --version)
