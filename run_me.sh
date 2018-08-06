@@ -37,10 +37,11 @@ if [[ $params == "debian" ]]
 then
     sudo add-apt-repository ppa:jonathonf/vim
     sudo apt update
-    sudo apt install vim
+    sudo apt-get -y install vim
 else
     echo "is fedora based"
-    echo
+    curl -L https://copr.fedorainfracloud.org/coprs/mcepl/vim8/repo/epel-7/mcepl-vim8-epel-7.repo -o /etc/yum.repos.d/mcepl-vim8-epel-7.repo
+	yum update vim
 fi
 
 # begin installation of pluggins
@@ -91,4 +92,3 @@ echo
 echo
 echo "please restart your terminal"
 echo
-
