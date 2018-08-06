@@ -80,7 +80,7 @@ options=(
     )
 for i in "${options[@]}"
 do
-    echo "$i" >> ~/options.txt
+    echo "$i" >> ~/.vimrc
 done
 
 echo "installation complete"
